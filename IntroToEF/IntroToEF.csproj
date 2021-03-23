@@ -12,4 +12,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\IntroToEF.Data\IntroToEF.Data.csproj" />
+  </ItemGroup>
+
 </Project>

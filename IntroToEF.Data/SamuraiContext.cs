@@ -14,7 +14,7 @@ namespace IntroToEF.Data
         public DbSet<Samurai> SamuraiMV { get; set; }
         public DbSet<Horse> Horses { get; set; }
 
-        private const string CONNECTION = @"Server=.\SQLEXPRESS;Database=SamuraiDB;Trusted_Connection=True;";
+        private const string CONNECTION = @"Server=.\SQLEXPRESS;Database=SamuraiDB2;Trusted_Connection=True;";
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
